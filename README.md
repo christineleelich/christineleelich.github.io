@@ -1,4 +1,4 @@
-# christineleelich.github.io
-familywebsite http://christineleelich.github.io
+# jennyleelich.github.io
+familywebsite http://jennyleelich.github.io
 Developed by BootStrap FrameWork and Angular JS
 
