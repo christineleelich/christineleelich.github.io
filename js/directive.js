@@ -7,7 +7,7 @@ bookDirectives.directive('myModal',function(){
             
         },
         restrict:'E',
-		templateUrl:'book_add.html',
+		templateUrl:'../view/book_add.html',
         replace: true,
         compile:function(elem,attrs){
             var linkFun=function(scope,element,attrs)
@@ -55,7 +55,7 @@ bookDirectives.directive('editModal',function(){
             
         },
         restrict:'E',
-		templateUrl:'book_edit.html',
+		templateUrl:'../view/book_edit.html',
         replace: true,
         compile:function(elem,attrs){
             var linkFun=function(scope,element,attrs)
