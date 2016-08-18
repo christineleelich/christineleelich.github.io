@@ -201,20 +201,12 @@
     
     <script>
     var app = angular.module("app", []);
- 
-<<<<<<< HEAD
-    app.controller("Ctrl",function Ctrl($scope,$http) {
-    $http.get('data/data.json').success(function(data) {
-          $scope.contacts = data;
-          
-        });
-=======
      app.controller("Ctrl",function Ctrl($scope,$http) {
         $http.get('data/data.json').success(function(data) {
               $scope.contacts = data;
 
             });
->>>>>>> origin/master
+
 
       /*  fetch('http://localhost:3000/tasks/')
       .then(function(response) {
