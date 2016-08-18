@@ -3,4 +3,8 @@ bower_components/
 node_modules/
 docs/
 .sass-cache/
+<<<<<<< HEAD
 bin/
+=======
+bin/
+>>>>>>> origin/master

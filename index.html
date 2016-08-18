@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Jenny Family</title>
+	<title>Family</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	
 	
@@ -202,11 +202,19 @@
     <script>
     var app = angular.module("app", []);
  
+<<<<<<< HEAD
     app.controller("Ctrl",function Ctrl($scope,$http) {
     $http.get('data/data.json').success(function(data) {
           $scope.contacts = data;
           
         });
+=======
+     app.controller("Ctrl",function Ctrl($scope,$http) {
+        $http.get('data/data.json').success(function(data) {
+              $scope.contacts = data;
+
+            });
+>>>>>>> origin/master
 
       /*  fetch('http://localhost:3000/tasks/')
       .then(function(response) {
