@@ -49,7 +49,7 @@
                 <input type="text" class="form-control" ng-model="query" placeholder="search books">
             </div>
             <div class="form-group" ng-cloak>
-                <table class="table table-bordered table-hover" >
+                <table class="table table-bordered table-hover" ng-cloak>
                     <tr>
                         <th>title</th>
                         <th>Author</th>
@@ -57,7 +57,7 @@
                        <!--<th>Pulish time</th>-->
                         <th>Genre</th>
                     </tr>
-                    <tr ng-repeat="book in data| filter:query" ng-click="editBook(book)" >
+                    <tr ng-cloak ng-repeat="book in data| filter:query" ng-click="editBook(book)" >
                         <td>{{book.title}}</td>
                         <td>{{book.author}}</td>
                         <td>{{book.discription}}</td>
